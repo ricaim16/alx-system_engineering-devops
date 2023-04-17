@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u
+find . -type f -name "*.js" -delete
